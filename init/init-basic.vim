@@ -68,7 +68,7 @@ if has('multi_byte')
 
 	" 文件默认编码
 	set fileencoding=utf-8
-
+	" TODO 添加日文常用编码 2021/04/21
 	" 打开文件时自动尝试下面顺序的编码
 	set fileencodings=ucs-bom,utf-8,gbk,gb18030,big5,euc-jp,latin1
 endif

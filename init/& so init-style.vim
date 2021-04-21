@@ -17,7 +17,7 @@
 set laststatus=2
 
 " 总是显示行号
-set number
+"set number
 
 " 总是显示侧边栏（用于显示 mark/gitdiff/诊断信息）
 set signcolumn=yes
@@ -44,14 +44,14 @@ set splitright
 "----------------------------------------------------------------------
 
 " 设置黑色背景
-"set background=dark
+set background=dark
 
 " 允许 256 色
 set t_Co=256
 
-" MEMO 此选项Error
 " 设置颜色主题，会在所有 runtimepaths 的 colors 目录寻找同名配置
-color gruvbox
+color desert256
+
 
 "----------------------------------------------------------------------
 " 状态栏设置
